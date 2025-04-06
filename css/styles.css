@@ -70,7 +70,16 @@ img {
 .nav-list-link {
   padding: 26px 0;
   display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
 }
+
+.active-page {
+  font-weight: 600;
+}
+
 .list-button {
   gap: 21px;
   margin-left: auto;

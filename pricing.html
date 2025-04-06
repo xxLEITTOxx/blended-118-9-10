@@ -3,7 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Business promotion</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <nav class="navigation flex">
+          <div class="logo-class">
+            <a href="./index.html" class="logo flex"
+              ><img src="./images/logo.png" alt="logo business promotion" />
+              <p class="product-title">Product</p>
+            </a>
+          </div>
+          <ul class="nav-list flex">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link active-page" href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./customer.html">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-button flex">
+          <li class="list-button-item">
+            <button class="list-button-cta-in" type="button">Sign In</button>
+          </li>
+          <li class="list-button-item">
+            <button class="list-button-cta-up" type="button">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="questions">
+        <div class="container">
+          <h2 class="questions-title">Frequently asked question</h2>
+          <p class="questions-descr">
+            Something is not clear? You need help? Check our FAQ section
+          </p>
+          <ul class="questions-list">
+            <li class="questions-item">
+              <details>
+                <summary class="questions-sum">
+                  <!-- Значок "+" -->
+                  <svg class="icon plus">
+                    <!-- <use href="./images/symbols.svg#icon-plus"></use> -->
+                  </svg>
+                  <!-- Значок "-" -->
+                  <svg class="icon minus">
+                    <use href="./images/symbols.svg#icon-minus"></use>
+                  </svg>
+                  What are my payment option?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="questions-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./images/symbols.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./images/symbols.svg#icon-minus"></use>
+                  </svg>
+                  How can I invite collaborator to platform?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="questions-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./images/symbols.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./images/symbols.svg#icon-minus"></use>
+                  </svg>
+                  Can I upgrade my plan?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="questions-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./images/symbols.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./images/symbols.svg#icon-minus"></use>
+                  </svg>
+                  Can I cancel my plan at anytime?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Can I cancel my plan at anytime?</summary>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur accusamus, enim doloremque tenetur sapiente
+                  consectetur consequuntur. Iste doloribus nemo voluptatibus
+                  fuga corrupti eveniet eos necessitatibus. Dignissimos a
+                  molestiae quidem eius?
+                </p>
+              </details>
+            </li>
+          </ul>
+          <svg>
+            <use href="./images/symbols.svg#icon-Chart"></use>
+          </svg>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
